@@ -20,7 +20,6 @@ $(document).ready(function() {
 	});
 
 	// Page Scroll
-	var topoffset = $('#header').outerHeight();
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
 
@@ -39,7 +38,7 @@ $(document).ready(function() {
 	  	var $el = $(this)
 	    	id = $el.attr('href');
 		$('html, body').animate({
-			scrollTop: $(id).offset().top - topoffset
+			scrollTop: $(id).offset().top - 150
 		}, 500);
 	  return false;
 	});
