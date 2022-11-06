@@ -20,6 +20,7 @@ $(document).ready(function() {
 	});
 
 	// Page Scroll
+	var topoffset = $('#header').outerHeight();
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
 
