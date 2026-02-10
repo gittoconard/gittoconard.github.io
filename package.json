@@ -1,0 +1,1 @@
+{"name": "gittoconard.github.io", "version": "1.0.0", "description": "Personal website for gittoconard", "main": "index.html", "scripts": {"start": "live-server", "build": "webpack --mode production"}, "dependencies": {"jquery": "^3.6.0", "bootstrap": "^5.1.0"}, "author": "gittoconard", "license": "MIT"}
